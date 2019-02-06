@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+	margin: 0;
+  height: 3300px;
+	font-family: 'Pontano Sans', sans-serif;
+  background-color: #ff8622;
+  color: #3a3a3a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  border-bottom: 1px solid #969696;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.readingresponses {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid #969696;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+p {
+  font-family: Avenir;
+  font-weight: 100;
+  font-size: 16px;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 100;
+  color: #ff8622;
+  margin-top: 0;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.line {
+  width: 50%;
+  border-right: 1px solid white;
+  height: 100px;
+}
+
+.reading1 {
+  text-align: left;
+  padding: 50px;
+  border: 1px solid #969696;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  background-color: white;
+  display: none;
+}
+
+.reading2 {
+  text-align: left;
+  padding: 50px;
+  border: 1px solid #969696;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  background-color: white;
+  display: none;
+}
+
+.reading3 {
+  text-align: left;
+  padding: 50px;
+  border: 1px solid #969696;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  background-color: white;
+  display: none;
+}
+
+.reading4 {
+  text-align: left;
+  padding: 50px;
+  border: 1px solid #969696;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  background-color: white;
+  display: none;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  margin-left:0;
+}
+
+p.response {
+  font-family: Avenir;
+  font-weight: 100;
+  font-size: 16px;
+  width: 100%;
+  margin-left: 0;
+}

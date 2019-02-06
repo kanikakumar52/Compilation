@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+	margin: 0;
+	font-family: 'Pontano Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #3a3a3a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  border-bottom: 1px solid #969696;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.webbanner {
+  background-color: white;
+	width: 85%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  border-bottom: 1px solid #969696;
+}
+
+.background {
+  width: 100%;
+}
+
+.access {
+  position: relative;
+}
+
+.line1 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-left: 1px solid #969696;
+  border-bottom: 1px solid #969696;
+  height: 350px;
+}
+
+.line2 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-right: 1px solid #969696;
+  border-bottom: 1px solid #969696;
+  height: 350px;
+}
+
+.line3 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-left: 1px solid #969696;
+  height: 350px;
+}
+
+.project1 {
+  position: absolute;
+  width: 25%;
+  margin-top: 13%;
+  margin-left: 13%;
+}
+
+.project2 {
+  position: absolute;
+  width: 24%;
+  margin-top: 37%;
+  margin-left: 62%;
+}
+
+.project3 {
+  position: absolute;
+  width: 24%;
+  margin-top: 62%;
+  margin-left: 13%;
+}
+
+.project4 {
+  position: absolute;
+  width: 23%;
+  margin-top: 87%;
+  margin-left: 62%;
+}
+
+.describe1 {
+  text-align: left;
+  background-color: white;
+  position: absolute;
+  border: 1px solid #969696;
+  width: 72%;
+  margin-left: 14%;
+  margin-top: 11%;
+  display: none;
+}
+
+.describe2 {
+  text-align: left;
+  background-color: white;
+  position: absolute;
+  border: 1px solid #969696;
+  width: 72%;
+  margin-left: 14%;
+  margin-top: 37%;
+  display: none;
+}
+
+.describe3 {
+  text-align: left;
+  background-color: white;
+  position: absolute;
+  border: 1px solid #969696;
+  width: 72%;
+  margin-left: 14%;
+  margin-top: 62%;
+  display: none;
+}
+
+.describe4 {
+  text-align: left;
+  background-color: white;
+  position: absolute;
+  border: 1px solid #969696;
+  width: 72%;
+  margin-left: 14%;
+  margin-top: 86.5%;
+  display: none;
+}
+
+p {
+  font-family: Avenir;
+  font-weight: 100;
+  font-size: 16px;
+  width: 50%;
+  padding-bottom: 3.5%;
+  padding-left:6%;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 100;
+  color: #ff8622;
+  margin-top: 0;
+  padding-top:3.5%;
+  padding-left: 6%;
+}
+
+.cover {
+  width: 30%;
+  height: 100%;
+  margin-left: 70%;
+  position: absolute;
+}
+
+p .link {
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 16px;
+  width: 50%;
+  padding-bottom: 3.5%;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+p .link:hover {
+  font-weight: 800;
+}
+
+p .link:visited {
+  text-decoration: none;
+}
+
+.label1 {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  color: #ff8622;
+  font-weight: 100;
+  margin-left: 43%;
+  margin-top: 21%;
+}
+
+.label2 {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  color: #ff8622;
+  font-weight: 100;
+  margin-left: 43%;
+  margin-top: 21%;
+}
+
+.label3 {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  color: #ff8622;
+  font-weight: 100;
+  margin-left: 43%;
+  margin-top: 21%;
+}
+
+.label4 {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  color: #ff8622;
+  font-weight: 100;
+  margin-left: 43%;
+  margin-top: 21%;
+}
+  

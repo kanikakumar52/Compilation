@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Roboto:500');
+
+/* setting up the background */
+body {
+	background-color: white;
+	font-family: 'Muli', sans-serif;
+	font-size: 10px;
+	color: #2b2b2b;
+}
+
+#rectangle {
+	width: 750px;
+	height: 1050px;
+	background-color: #f6f6f6; 
+	position: relative;
+	margin-bottom: 100px;
+	top: 100px;
+	left: 25%;
+}
+
+/* styling for cicle 1*/
+#arc1 {
+	width: 700px;
+	height: 700px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid #2b2b2b;
+	border-top-color: transparent;
+	position:absolute;
+	top: 25px;
+	left: 10px;
+	transform: rotate(-60deg);
+	animation-name: fadeIn;
+	animation-duration: 1s;
+}
+
+/* styling for cicle 2*/
+#arc2 {
+	width: 665px;
+	height: 665px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid #2b2b2b;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	transform: rotate(60deg);
+	animation-name: rotateIn;
+	animation-duration: 10s;
+	
+}
+
+#arc3 {
+	width: 665px;
+	height: 665px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid #2b2b2b;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color:transparent;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	transform: rotate(130deg);
+	animation-name: rotateIn;
+	animation-duration: 10s;
+}
+
+
+/* styling for cicle 3*/
+#arc4 {
+	width: 630px;
+	height: 630px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid #2b2b2b;
+	position: absolute;
+	right: 19.5px;
+	top: 19.5px;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	transform: rotate(80deg);
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-direction: reverse;
+
+}
+
+#arc5 {
+	width: 630px;
+	height: 630px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid #2b2b2b;
+	position: absolute;
+	right: 19.5px;
+	top: 19.5px;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	transform: rotate(20deg);
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-direction: reverse;
+}
+
+/* styling for cicle 4*/
+#arc6 {
+	width: 595px;
+	height: 595px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid #2b2b2b;
+	position: absolute;
+	right: 37px;
+	top: 37px;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	transform: rotate(85deg);
+	animation-name: rotateIn;
+	animation-duration: 10s;
+}
+#arc7 {
+	width: 595px;
+	height: 595px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 37px;
+	top: 37px;
+	border-top-color: #2b2b2b;
+	transform: rotate(120deg);
+	animation-name: rotateIn;
+	animation-duration: 10s;
+}
+
+/* styling for cicle 5*/
+#arc8 {
+	width: 560px;
+	height: 560px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 54.5px;
+	top: 54.5px;
+	border-bottom-color: #2b2b2b;
+	transform: rotate(68deg);
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-direction: reverse;
+}
+#arc9 {
+	width: 560px;
+	height: 560px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 54.5px;
+	top: 54.5px;
+	border-right-color: #2b2b2b;
+	transform: rotate(10deg);
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-direction: reverse;
+}
+#arc10 {
+	width: 560px;
+	height: 560px;
+	background: transparent;
+	border-radius: 50%;
+	border: 17px solid transparent;
+	position: absolute;
+	right: 53px;
+	top: 53px;
+	border-right-color: #f6f6f6;
+	transform: rotate(-38deg);
+}
+
+/* styling for cicle 6*/
+#arc11 {
+	width: 525px;
+	height: 525px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 72px;
+	top: 72px;
+	border-bottom-color: #2b2b2b;
+	transform: rotate(87deg);
+	animation-name: rotateIn;
+	animation-duration: 10s;
+}
+#arc12 {
+	width: 525px;
+	height: 525px;
+	background: transparent;
+	border-radius: 50%;
+	border: 17px solid transparent;
+	position: absolute;
+	right: 69px;
+	top: 69px;
+	border-bottom-color: #f6f6f6;
+	transform: rotate(15deg);
+}
+#arc13 {
+	width: 525px;
+	height: 525px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 72px;
+	top: 72px;
+	border-right-color: #2b2b2b;
+	transform: rotate(25deg);
+	animation-name: rotateIn;
+	animation-duration: 10s;
+}
+#arc14 {
+	width: 525px;
+	height: 525px;
+	background: transparent;
+	border-radius: 50%;
+	border: 17px solid transparent;
+	position: absolute;
+	right: 71px;
+	top: 71px;
+	border-right-color: #f6f6f6;
+	transform: rotate(-22deg);
+}
+
+/* styling for cicle 7*/
+#arc15 {
+	width: 490px;
+	height: 490px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 89.5px;
+	top: 89.5px;
+	border-right-color: #2b2b2b;
+	transform: rotate(35deg);
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-direction: reverse;
+}
+#arc16 {
+	width: 490px;
+	height: 490px;
+	background: transparent;
+	border-radius: 50%;
+	border: 17px solid transparent;
+	position: absolute;
+	right: 88px;
+	top: 88px;
+	border-right-color: #f6f6f6;
+	transform: rotate(-5deg);
+}
+#arc17 {
+	width: 490px;
+	height: 490px;
+	background: transparent;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	position: absolute;
+	right: 89.5px;
+	top: 89.5px;
+	border-left-color: #2b2b2b;
+	transform: rotate(-10deg);
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-direction: reverse;
+}
+#arc18 {
+	width: 490px;
+	height: 490px;
+	background: transparent;
+	border-radius: 50%;
+	border: 17px solid transparent;
+	position: absolute;
+	right: 86.5px;
+	top: 86.5px;
+	border-left-color: #f6f6f6;
+	transform: rotate(-40deg);
+}
+
+/* animation details */
+@keyframes rotateIn {
+	0% {transform: rotate(var(transform));}
+	50% {transform: rotate(360deg);}
+	100% {transform: rotate(transform);}
+}
+
+@keyframes rotate {
+	0% {transform: rotate(var(transform));}
+	50% {transform: rotate(360deg);}
+	100% {transform: rotate(transform);}
+}
+
+@keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity: 1;}
+}
+
+/* text styling */
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	float: right;
+	text-align:right;
+	position: absolute;
+	right: 240px;
+	bottom: 3px;
+
+}
+.leftcolumn {
+	padding-bottom: 40px;
+	display: inline-block;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	float: left;
+	left: 70px;
+	bottom: 180px;
+	font-weight: 700;
+	font-size: 30px;
+}
+.flex-container2 {
+	display: flex;
+	flex-direction: column;
+	float: right;
+	text-align:left;
+	position: absolute;
+	right: 70px;
+	bottom: 10px;
+}
+.right-column {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+

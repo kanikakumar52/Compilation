@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Emilys+Candy|Faster+One|Fredericka+the+Great|Glass+Antiqua|Raleway+Dots|Saira+Extra+Condensed|Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+	background-color: rgb(61,195,216, 0.8);
+	margin: 0;
+	color: #4E4E4E;
+	font-family: 'Pontano Sans', sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid #969696;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.rosebanner {
+	width: 100%;
+}
+
+.fa-arrow-circle-down {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+}
+.fa-arrow-circle-down:hover {
+	background-color: #FF83D2;
+	border-radius: 50%
+}
+/* header details */
+.header {
+	background: white
+}
+.headerpadding {
+	width: 80%;
+	padding: 50px;
+	border: 3px white;
+	margin: auto;
+	text-align: center;
+}
+
+#pianoman {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.piano {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pianoopacity {
+	opacity: 0.75;
+}
+
+/* h3 global details */
+h3 {
+	font-family: 'Thasadith', sans-serif;
+	font-size: 22px;
+}
+
+/* verse 1 padding */
+.verse1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.verse1padding {
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* verse 2 padding */
+.verse2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.verse2padding {
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+/* verse 3 padding */
+.verse3 {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.verse3padding {
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* verse 4 padding */
+.verse4 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.verse4padding {
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+
+
+/* verse 5 padding */
+.verse5 {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.verse5padding {
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+}
+
+
+
+/* lyric section customization */
+.hold {
+	font-size: 300px;
+}
+.close {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 100px;
+}
+
+.fast {
+	font-family: 'Faster One', cursive;
+	font-size: 150px;
+}
+
+.cast {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 100px;
+}
+
+.rose {
+	font-family: 'Dancing Script', cursive;
+	font-size: 150px;
+	color: white;
+}
+.rose:hover {
+	text-transform: capitalize;
+	color: #FF68C8;
+}
+
+.kiss {
+	font-family: 'Emilys Candy', cursive;
+	font-size: 50px;
+}
+
+.sighs {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 250px;
+	font-weight: 400;
+	color: black;
+	background-color: white;
+	padding: 20px;
+	margin-top: 0;
+}
+.sighs:hover {
+	font-size: 280px;
+}
+
+.eyes {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 30px;
+}
+
+.press {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 100px;
+	font-weight: 400;
+}
+
+.heart {
+	font-family: 'Emilys Candy', cursive;
+	font-size: 200px;
+	color: #f0abcc;
+}
+
+.apart {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 30px;
+	font-weight: 800;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	color: black;
+}
+.apart:hover {
+	font-size: 100px;
+	font-weight: 400;
+}
+
+.bloom {
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 200px;
+	font-weight: 400;
+}
+
+.above {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 40px;
+}
+
+.lovesongs {
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 40px;
+}
+
+.heartsoul {
+	font-family: 'Emilys Candy', cursive;
+	font-size: 50px;
+}
+
+.me {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 100px;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.be {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 100px;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+.roselast {
+	font-family: 'Dancing Script', cursive;
+	font-size: 150px;
+	color: black;
+}
+.roselast:hover {
+	text-transform: capitalize;
+	color: #FF68C8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

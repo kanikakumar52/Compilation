@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+html {
+	font-size: 16px;
+}
+
+body {
+	color: #e0e0e0;
+	background-color: #292a2f;
+	font-family: Gill Sans, sans-serif;
+	font-weight: 100;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 100px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid #969696;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.banner {
+	text-align: left;
+	padding-bottom: 10%;
+	background-color: #222126;
+	position: relative;
+}
+
+.beatreview {
+	width: 100%;
+	margin: 0;
+}
+
+span {
+	color: #e4594d;
+	font-family: Gill Sans, sans-serif;
+	font-weight: 400;
+}
+
+#subheading {
+	font-size: 112.5%;
+	padding: 2%;
+	position: absolute;
+	width: 24%;
+	left: 52%;
+	top: 43%;
+}
+
+.flexanimate {
+	position: relative;
+}
+.flexbox {
+	display: flex;
+	justify-content: center;
+  	padding: 4%;
+  	position: absolute;
+ 
+}
+
+.calmhide {
+	width: 43%;
+	height: 43%;
+}
+
+.calmhide:hover {
+	opacity: 0;
+}
+
+.scaredhide {
+	width: 43%;
+	height: 43%;
+}
+
+.scaredhide:hover {
+	opacity: 0;
+}
+
+.flexbox2 {
+	display: flex;
+	justify-content: center;
+  	padding: 4%;
+  	position: absolute;
+}
+
+.calmreveal {
+	width: 43%;
+	height: 43%;
+}
+
+.scaredreveal {
+	width: 43%;
+	height: 43%;
+}
+
+#spacing {
+	width: 100%;
+	height: 470px;
+}
+
+h2 {
+	font-family: Seville;
+	font-size: 222%;
+	text-align: center;
+	justify-content: center;
+	font-weight: 100;
+	padding-top: 100px;
+}
+
+.moviepadding1 {
+	width: 80%;
+	height: 505px;
+	background-color: #222126;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.poster {
+	position: absolute;
+	width: 31%;
+}
+
+.openposter {
+	position: absolute;
+	width: 33%;
+}
+
+.movietext {
+	position: absolute;
+	width: 50%;
+	left: 37%;
+}
+
+.movietitle {
+	font-size: 219%;
+	font-weight: 100;
+	text-align: left;
+	margin-top: 15%;
+
+}
+
+.synopsis {
+	text-align: left;
+	font-size: 100%;
+	line-height: 150%;
+	font-weight: 100;
+}
+
+.movie1click {
+	font-size: 100%;
+	font-weight: 400;
+	position: absolute;
+	background-image: linear-gradient(#e45a4d, #e94c4c);
+	padding: 1.5%;
+	text-align: center;
+	left: 37%;
+	margin-top: 32%;
+}
+
+.movie1close {
+	font-size: 100%;
+	font-weight: 400;
+	position: absolute;
+	background-image: linear-gradient(#e45a4d, #e94c4c);
+	padding: 1.5%;
+	text-align: center;
+	left: 37%;
+	margin-top: 32%;
+}
+
+.movie2click {
+	font-size: 100%;
+	font-weight: 400;
+	position: absolute;
+	background-image: linear-gradient(#e45a4d, #e94c4c);
+	padding: 1.5%;
+	text-align: center;
+	left: 37%;
+	margin-top: 32%;
+}
+
+.movie2close {
+	font-size: 100%;
+	font-weight: 400;
+	position: absolute;
+	background-image: linear-gradient(#e45a4d, #e94c4c);
+	padding: 1.5%;
+	text-align: center;
+	left: 37%;
+	margin-top: 32%;
+}
+
+.movie3click {
+	font-size: 100%;
+	font-weight: 400;
+	position: absolute;
+	background-image: linear-gradient(#e45a4d, #e94c4c);
+	padding: 1.5%;
+	text-align: center;
+	left: 37%;
+	margin-top: 32%;
+}
+
+.movie3close {
+	font-size: 100%;
+	font-weight: 400;
+	position: absolute;
+	background-image: linear-gradient(#e45a4d, #e94c4c);
+	padding: 1.5%;
+	text-align: center;
+	left: 37%;
+	margin-top: 32%;
+}
+
+
+.moviepadding2 {
+	width: 80%;
+	height: 505px;
+	background-color: #222126;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.moviepadding3 {
+	width: 80%;
+	height: 505px;
+	background-color: #222126;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.movie1graph {
+	background-color: #35353d;
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 10%;
+	display: none;
+}
+
+.movie2graph {
+	background-color: #35353d;
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 10%;
+	display: none;
+}
+
+.movie3graph {
+	background-color: #35353d;
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 10%;
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+	html {
+		font-size: 11 px;
+	}
+
+	#subheading {
+		width: 30%;
+		left: 52%;
+		top: 40%;
+	}
+
+	#spacing {
+		width: 100%;
+		height: 260px;
+	}
+
+	.moviepadding1 {
+		width: 100%;
+		height: 490px;
+	}
+
+	.moviepadding2 {
+		width: 100%;
+		height: 490px;
+	}
+
+	.moviepadding3 {
+		width: 100%;
+		height: 490px;
+	}
+
+	.movietext {
+		width: 50%;
+		left: 45%;
+	}
+
+	.poster {
+		width: 40%;
+	}
+
+	.openposter {
+		width: 37%;
+	}
+
+	.movie1click {
+		left: 45%;
+		margin-top: 32%;
+	}
+
+	.movie1close {
+		left: 45%;
+		margin-top: 32%;
+	}
+
+	.movie2click {
+		left: 45%;
+		margin-top: 32%;
+	}
+
+	.movie2close {
+		left: 45%;
+		margin-top: 32%;
+	}
+
+	.movie3click {
+		left: 45%;
+		margin-top: 32%;
+	}
+
+	.movie3close {
+		left: 45%;
+		margin-top: 32%;
+	}
+
+	.movietitle {
+		margin-top: 16%;
+	}
+
+	.movie1graph {
+		width: 90%;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-left: 0%;
+		display: none;
+	}
+
+	.movie2graph {
+		width: 90%;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-left: 0%;
+		display: none;
+	}
+
+	.movie3graph {
+		width: 90%;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-left: 0%;
+		display: none;
+	}
+
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+	margin: 0;
+	font-family: 'Pontano Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #3a3a3a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  border-bottom: 1px solid #969696;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.process {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid #969696;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+p {
+  font-family: Avenir;
+  font-weight: 100;
+  font-size: 16px;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 100;
+  color: #ff8622;
+  margin-top: 0;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 32%; /* IE10 */
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

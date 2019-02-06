@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+	margin: 0;
+	font-family: 'Pontano Sans', sans-serif;
+  	background-color: #ff8622;
+  	color: #3a3a3a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  display: block;
+  border-bottom: 1px solid #969696;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.container {
+	display: flex;
+}
+
+.profile1 {
+	width: 32.6%;
+	height: 32.6%;
+}
+
+.profile2 {
+	width: 32.65%;
+	height: 32.65%;
+}
+
+.profile3 {
+	width: 34.8%;
+	height: 34.8%;
+}
+
+.blurb {
+	text-align: center;
+	background-color: #f9f9f9;
+	padding: 3% 5% 3% 5%;
+	width: 40%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 40%;
+	margin-bottom: 8%;
+	position: absolute;
+	display: none;
+}
+
+p {
+	font-family: Avenir;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 100;
+	color: #ff8622;
+	margin-top: 0;
+}

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+	margin: 0;
+	color: #404040;
+	height: 5250px;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid #969696;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ff8622;
+}
+
+li a.current {
+  color: #ff8622;
+}
+
+.banner {
+	width: 100%;
+}
+
+.description {
+	background-image: url(background.png);
+	width: 100%;
+	padding: 8%;
+}
+
+.background {
+	width: 100%;
+}
+
+h1 {
+	font-family: Baskerville;
+	color: #404040;
+	font-size: 30px;
+	display: inline-block;
+}
+
+h4 {
+	font-family: Avenir;
+	color: #404040;
+	font-weight: 400;
+	font-size: 16px;
+	width: 25%;
+	padding-right: 5%;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.images {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	padding-top: 6%;
+}
+
+.urthy {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+}
+
+.urthybw {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+}
+
+.frame {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+}
+
+.pots {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+
+}
+
+.storage {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+}
+
+.grinder {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+}
+
+.helper {
+	width: 65%;
+	margin-left: 17%;
+	position: absolute;
+}
+
+#introDescription {
+	font-family: Avenir;
+	text-align: center;
+	padding: 5px;
+	background-color: transparent;
+	position: absolute;
+	font-weight: 400;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100%;
+	font-size: 16px;
+}
+
+#frameDescription {
+	font-family: Avenir;
+	width: 14.1%;
+	height: 132%;
+	top: 0px;
+	left: 0px;
+	text-align: left;
+	padding: 1.4%;
+	background-color: #38B449;
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+.component {
+	font-family: Baskerville;
+	font-weight: 700;
+	text-align: left;
+	color: white;
+	font-size: 25px;
+	margin-top: 0;
+}
+
+#potsDescription {
+	font-family: Avenir;
+	width: 14.1%;
+	height: 132%;
+	top: 170%;
+	left: 0px;
+	text-align: left;
+	padding: 1.4%;
+	background-color: #38B449;
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+#grinderDescription {
+	font-family: Avenir;
+	width: 14.1%;
+	height: 132%;
+	top: 340%;
+	left: 0px;
+	text-align: left;
+	padding: 1.4%;
+	background-color: #38B449;
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+#helperDescription {
+	font-family: Avenir;
+	width: 14.1%;
+	height: 132%;
+	top: 510%;
+	left: 0px;
+	text-align: left;
+	padding: 1.4%;
+	background-color: #38B449;
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+#storageDescription {
+	font-family: Avenir;
+	width: 14.1%;
+	height: 132%;
+	top: 680%;
+	left: 0px;
+	text-align: left;
+	padding: 1.4%;
+	background-color: #38B449;
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
